@@ -31,7 +31,7 @@ cache:
 # do not cache our own artifacts
 before_cache:
   - rm -rf $HOME/.m2/repository/org/apache/flink/
-
+#comment
 install: true
 
 language: java
