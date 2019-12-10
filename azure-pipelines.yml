@@ -28,6 +28,7 @@ resources:
     - repository: templates
       type: github
       name: flink-ci/flink-azure-builds
+      ref: refs/heads/test
       endpoint: flink-ci
 
 jobs:
