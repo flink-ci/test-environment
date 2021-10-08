@@ -52,6 +52,9 @@ public class BasicTypeInfoTest extends TestLogger {
 
     @Test
     public void testBasicTypeInfoEquality() {
+        if (System.currentTimeMillis() % 2 == 0) {
+            assertEquals(1, 2);
+        }
         for (Class<?> clazz : classes) {
             BasicTypeInfo<?> tpeInfo1 = BasicTypeInfo.getInfoFor(clazz);
             BasicTypeInfo<?> tpeInfo2 = BasicTypeInfo.getInfoFor(clazz);
