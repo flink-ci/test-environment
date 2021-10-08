@@ -67,7 +67,7 @@ stages:
   # CI / PR triggered stage:
   - stage: ci
     displayName: "CI build (custom builders)"
-    condition: not(ne(variables['Build.Reason'], 'PullRequest'))
+    condition: ne(variables['Build.Reason'], 'PullRequest')
     jobs:
       - template: tools/azure-pipelines/jobs-template.yml
         parameters: # see template file for a definition of the parameters.
