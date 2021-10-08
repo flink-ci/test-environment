@@ -30,25 +30,7 @@ STAGE_CLEANUP="cleanup"
 STAGE_FINEGRAINED_RESOURCE_MANAGEMENT="finegrained_resource_management"
 
 MODULES_CORE="\
-flink-annotations,\
-flink-test-utils-parent/flink-test-utils,\
-flink-state-backends/flink-statebackend-rocksdb,\
-flink-clients,\
-flink-core,\
-flink-java,\
-flink-optimizer,\
-flink-rpc,\
-flink-rpc/flink-rpc-core,\
-flink-rpc/flink-rpc-akka,\
-flink-runtime,\
-flink-runtime-web,\
-flink-scala,\
-flink-streaming-java,\
-flink-streaming-scala,\
-flink-metrics,\
-flink-metrics/flink-metrics-core,\
-flink-external-resources,\
-flink-external-resources/flink-external-resource-gpu"
+flink-core"
 
 MODULES_LIBRARIES="\
 flink-libraries/flink-cep,\
