@@ -28,7 +28,7 @@ cp -RT "$FLINK_ARTIFACT_DIR" "."
 
 echo "Adjusting timestamps"
 # adjust timestamps of proto file to avoid re-generation
-find . -type f -name '*.proto' | xargs touch
+#find . -type f -name '*.proto' | xargs touch
 # wait a bit for better odds of different timestamps
 sleep 5
 
